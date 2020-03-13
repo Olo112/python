@@ -1,14 +1,18 @@
-# -*- coding: utf8 -*-
+#===========================================================
+# ALGO: P = (a * h)/2
+#===========================================================
 
-half = (0.5)
-a = input("Enter the number of a...")
-aT = int(a)
-
-h = input("Now enter the number of h...")
-hT = int(h)
-
-PT = half * aT * hT
-
-print("Your answer is", int(PT))
+# sec. 1 - main function
+def tri(a, h):
+  P = (a * h)/2
+  print("P =", P)
+  
+# sec. 2 - test
+print("Test for a = 12 and h = 6:")
+a = 12
+h = 6
+tri(a, h)
 
 input("Press enter to exit...")
+
+#======================== END OF FILE ======================
