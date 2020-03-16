@@ -17,4 +17,5 @@ a = 8
 b = 6
 pyth(a, b)
 
+input("Press enter to exit.. ")
 #======================== END OF FILE ======================
