@@ -1,11 +1,17 @@
-# -*- coding: utf8 -*-
+#===========================================================
+# ALGO: P = pi*r^3
+#===========================================================
 
-PI = 3.1415
+# sec. 1 - main function and asigning a constant value
+pi = 3.1415
+def sph(r):
+    P = pi*r**3
+    print("P =", P)
 
-r = input("Please enter number of r...")
-rC = int(r)
+# sec. 2 - Test
+print("Test for r = 3:")
+r = 3
+sph(r)
 
-answer = 4 * PI * rC ** 3
-print("Your answer is", int(answer))
-
-input("Press enter to finish...")
+input("Press enter to exit.. ")
+#======================== END OF FILE ======================
